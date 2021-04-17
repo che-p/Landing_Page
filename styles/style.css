@@ -698,7 +698,8 @@ img.control-dark__media {
 
 .repair-checkbox__label {
   margin-top: 16px;
-  width: 257px;
+  max-width: 257px;
+  display: flex;
 }
 
 .repair-checkbox__text {
@@ -962,6 +963,7 @@ img.control-dark__media {
   margin: 0 auto;
   margin-top: 46px;
   max-width: 280px;
+  display: flex;
 }
 
 .clients-questions__button {
